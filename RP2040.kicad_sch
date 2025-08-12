@@ -6305,16 +6305,6 @@
 		)
 		(uuid "0e217065-37ff-4487-8076-359a07d6d1bd")
 	)
-	(label "XOUT"
-		(at 126.365 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "10466cba-b45a-4266-a3b7-e58a54c85068")
-	)
 	(label "VREG_LX"
 		(at 142.24 81.28 0)
 		(effects
@@ -6505,16 +6495,6 @@
 		)
 		(uuid "c9a2e9f0-afbe-44db-b1e6-81fd64eb369e")
 	)
-	(label "~{USB_BOOT}"
-		(at 31.75 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d54152f9-c36d-467e-9e7d-25b7302beb08")
-	)
 	(label "~{RST}"
 		(at 142.24 127 0)
 		(effects
@@ -6524,26 +6504,6 @@
 			(justify left bottom)
 		)
 		(uuid "e72eb9df-bed0-4c60-b16a-6863ea8d0319")
-	)
-	(label "XOUT_R"
-		(at 140.97 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e85479a1-246b-4094-ab2f-e2441217b8b6")
-	)
-	(label "XIN"
-		(at 134.62 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f782812e-41f5-4fb0-b703-4162c93716f8")
 	)
 	(label "USB_D+"
 		(at 251.46 63.5 180)
@@ -6664,6 +6624,17 @@
 			(justify left)
 		)
 		(uuid "49c37692-773a-4783-950a-c26c3d94c603")
+	)
+	(hierarchical_label "~{RST}"
+		(shape input)
+		(at 142.24 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4c1de18c-6ac8-45b4-aacd-da7a3ada4bc2")
 	)
 	(hierarchical_label "GPIO24"
 		(shape bidirectional)
@@ -6842,7 +6813,7 @@
 		(uuid "d1cc21d5-6351-43e8-8198-b40244a6fa09")
 	)
 	(hierarchical_label "~{USB_BOOT}"
-		(shape bidirectional)
+		(shape input)
 		(at 30.48 87.63 180)
 		(effects
 			(font
