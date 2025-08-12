@@ -3375,7 +3375,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "99e5628a-8c61-4f9d-aa6e-5b585271b505")
-		(property "Sheetname" "RP2040"
+		(property "Sheetname" "RP2350A"
 			(at 27.94 33.5784 0)
 			(effects
 				(font
