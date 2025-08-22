@@ -1,6 +1,6 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
 C1,10uF,C_0402_1005Metric,130.54,-85.3,0.0,top
-C10,100nF,C_0402_1005Metric,121.06,-96.04,-90.0,top
+C10,100nF,C_0402_1005Metric,121.16,-96.06,-90.0,top
 C11,100n,C_0402_1005Metric,116.96,-96.07,-90.0,top
 C12,100n,C_0402_1005Metric,111.86,-93.59,180.0,top
 C13,100n,C_0402_1005Metric,116.01,-85.03,90.0,top
@@ -9,17 +9,20 @@ C15,100n,C_0402_1005Metric,124.96,-89.85,0.0,top
 C16,4.7u,C_0402_1005Metric_small_pads,122.59,-92.875,-90.0,top
 C17,4.7u,C_0402_1005Metric_small_pads,123.6,-92.875,-90.0,top
 C18,4.7u,C_0402_1005Metric,123.07,-94.8,180.0,top
+C19,4.7uF,C_0402_1005Metric,120.18,-96.06,-90.0,top
 C2,10uF,C_0402_1005Metric,126.92,-85.79,90.0,top
 C3,100n,C_0402_1005Metric,125.9,-85.8,90.0,top
 C4,10pF,C_0402_1005Metric,111.87,-89.14,180.0,top
 C5,10pF,C_0402_1005Metric,106.15,-91.03,90.0,top
 C6,100n,C_0402_1005Metric,118.34,-85.03,90.0,top
-C7,4.7uF,C_0402_1005Metric,111.86,-91.16,180.0,top
+C7,100nF,C_0402_1005Metric,111.86,-91.16,180.0,top
 C8,100nF,C_0402_1005Metric,117.95,-96.07,-90.0,top
 C9,100n,C_0402_1005Metric,111.87,-88.17,180.0,top
 D1,D_Schottky,D_SOD-123,130.21,-87.06,0.0,top
 D2,green,LED_0402_1005Metric,111.885,-94.58,0.0,top
 D3,green,LED_0402_1005Metric,111.89,-87.18,0.0,top
+J1,Conn_01x12,PinHeader_1x12_P2.54mm_Vertical,120.72,-83.11,90.0,bottom
+J2,Conn_01x12,PinHeader_1x12_P2.54mm_Vertical,120.72,-98.34,90.0,bottom
 J3,USB_C_Receptacle_USB2.0_16P,USB_C_Receptacle_HCTL_HC-TYPE-C-16P-01A,137.605,-90.6,90.0,top
 J7,Conn_01x02_Pin,JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical,108.15,-87.175,180.0,top
 J8,Conn_01x02_Pin,JST_ZH_B2B-ZR_1x02_P1.50mm_Vertical,108.15,-95.225,180.0,top
