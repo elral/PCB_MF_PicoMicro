@@ -133,7 +133,7 @@ Make sure to add a **3.3V → 5V level shifter** on the SPI signals to the MAX72
 
 #### Block Diagram
 
-![MAX7219 wiring](./assets/mobiflight_max7219_levelshift.png)
+![MAX7219 wiring](mobiflight_max7219_levelshift.png)
 
 
 ### Quick Pin Behavior (differences vs. classic Pro Micro)
