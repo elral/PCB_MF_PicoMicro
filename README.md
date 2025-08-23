@@ -112,24 +112,29 @@ While this board is highly compatible, there are a few important differences:
 
 ---
 
-## 🔧 Example Wiring (MAX7219 with External 5V)
+### Example Wiring (MAX7219 with External 5V)
 
-[RP2350A Board]                [MAX7219 Module]
------------------------------------------------
-Pin 10 (SPI MOSI, 3.3V logic) → DIN (via level shifter)
-Pin 15 (SPI CLK,  3.3V logic) → CLK (via level shifter)
-Pin 16 (CS/LOAD,  3.3V logic) → CS  (via level shifter)
+When using a MAX7219 with this RP2350A board, note the following:
 
-Pin 24 (Vin, 5V from USB)     → VCC (5V)
-GND                           → GND
+- The MAX7219 **requires 5V power** for reliable operation.
+- The RP2350A board only provides **3.3V logic**, so a **level shifter** is required on the SPI signals.
+- Use the `Vin` pin (Pin 24, USB 5V) as the 5V source if no external supply is available.
+- Do **not** use Pin 21 (`5V`), as it only provides 3.3V on this board.
 
-NOTE: Make sure to add a 3.3V → 5V level shifter on the SPI signals to the MAX7219.
-      Recommended: 74AHCT125 / 74AHCT245 (unidirectional), or similar HCT family.
+#### Wiring Notes
 
-![MAX7219 wiring](mobiflight_max7219_levelshift.svg)
+- **Vin (5V USB)** → **VCC (5V MAX7219)**
+- **GND** → **GND**
+- **MOSI (3.3V)** → (via level shifter) → **DIN (5V)**
+- **SCK (3.3V)** → (via level shifter) → **CLK (5V)**
+- **CS (3.3V)** → (via level shifter) → **LOAD/CS (5V)**
 
+Make sure to add a **3.3V → 5V level shifter** on the SPI signals to the MAX7219.
 
-⚠️ Make sure to add a 3.3V → 5V level shifter on the SPI signals to the MAX7219
+#### Block Diagram
+
+![MAX7219 wiring](./assets/mobiflight_max7219_levelshift.png)
+
 
 ### Quick Pin Behavior (differences vs. classic Pro Micro)
 
