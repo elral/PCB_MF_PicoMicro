@@ -1,9 +1,5 @@
 # ✈️ PicoMicro - ProMicro-Compatible Board from Mobiflight
 
-[![Mobiflight Compatible](logo.svg)](https://www.mobiflight.com/)
-![Arduino IDE](https://img.shields.io/badge/Arduino_IDE-Supported-success?style=flat-square)
-![Form Factor](https://img.shields.io/badge/Form_Factor-ProMicro-green?style=flat-square)
-
 This board is designed as a **drop-in replacement** for the classic Arduino Pro Micro (ATmega32U4), but powered by the **modern Raspberry Pi RP2350A microcontroller**.  
 It keeps the same **form factor and pinout** while offering massive improvements in performance, memory, and connectivity — making it the **ideal choice for Mobiflight cockpits**.
 
@@ -11,7 +7,7 @@ It keeps the same **form factor and pinout** while offering massive improvements
 
 ---
 
-## 🚀 Why PicoMicr0 for Mobiflight?
+## 🚀 Why PicoMicro for Mobiflight?
 
 ### ⚡ Drop-In Upgrade
 - Identical footprint & pinout to the Arduino Pro Micro  
