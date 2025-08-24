@@ -105,6 +105,7 @@ This board with the **RP2350A** offers clear advantages:
 - **More RAM** → essential for OLED displays and complex buffers.  
 - **Higher performance** → smoother updates and faster response.  
 - **Dual-Core CPU** → allows splitting tasks (e.g., handling displays and inputs in parallel).  
+- **PIO offload** → precise timing for LEDs, drivers, or custom protocols  
 
 This makes the PicoMicro board especially well-suited for **community-driven Mobiflight devices**, including setups with **OLED displays** and other resource-demanding modules.
 
