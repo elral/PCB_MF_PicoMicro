@@ -3,7 +3,7 @@
 This board is designed as a **drop-in replacement** for the classic Arduino Pro Micro (ATmega32U4), but powered by the **modern Raspberry Pi RP2350A microcontroller**.  
 It keeps the same **form factor and pinout** while offering massive improvements in performance, memory, and connectivity — making it the **ideal choice for Mobiflight cockpits**.
 
-![Top View](promicro-top.png)
+![Top View](picomicro-top.png)
 
 ---
 
@@ -132,8 +132,8 @@ The **PicoMicro** is a **next-generation upgrade** built for Mobiflight cockpit 
 ## Additional information
 
 ### Bottom View
-![Top View](promicro-bottom.png)
+![Top View](picomicro-bottom.png)
 
 ### Schematic
-![Top View](schematic1.png)
-![Top View](schematic2.png)
+![Top View](picomicro-schematic1.png)
+![Top View](picomicro-schematic2.png)
