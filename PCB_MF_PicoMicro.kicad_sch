@@ -1016,8 +1016,8 @@
 		)
 	)
 	(rectangle
-		(start 162.56 59.69)
-		(end 195.58 90.17)
+		(start 162.56 57.15)
+		(end 195.58 92.71)
 		(stroke
 			(width 0)
 			(type default)
@@ -1029,7 +1029,7 @@
 	)
 	(rectangle
 		(start 131.445 47.625)
-		(end 226.695 95.25)
+		(end 226.695 97.79)
 		(stroke
 			(width 0)
 			(type default)
@@ -1156,6 +1156,16 @@
 			)
 		)
 		(uuid "5523d93f-d441-4f77-9ced-d8bb20d40a32")
+	)
+	(text "PicoMicro"
+		(exclude_from_sim no)
+		(at 176.276 51.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "587381a4-1aee-483b-862b-828350a616fc")
 	)
 	(text "10(PWM)"
 		(exclude_from_sim no)

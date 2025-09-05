@@ -3224,7 +3224,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25076"
+		(property "LCSC" "C25120"
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -4081,7 +4081,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25076"
+		(property "LCSC" "C25120"
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -5196,7 +5196,7 @@
 				)
 			)
 		)
-		(property "Value" "RP2040"
+		(property "Value" "RP2350A"
 			(at 0 5.55 90)
 			(layer "F.Fab")
 			(uuid "06179803-4f3b-479c-9f3b-5cdc94b05157")
@@ -12601,7 +12601,7 @@
 		)
 	)
 	(gr_text "PicoMicroMS\nV1.1\n??/25"
-		(at 136.5 92.36 0)
+		(at 136.5 92.81 0)
 		(layer "B.SilkS")
 		(uuid "9a4614ec-5701-4832-a74c-4a104e0d7aee")
 		(effects
@@ -13143,14 +13143,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "f81dd3e2-7e7f-4d1e-adc5-0fb258f901cd")
-	)
-	(via
-		(at 139.87 97.87)
-		(size 0.65)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net 2)
-		(uuid "fd4fc2fb-b111-4c90-adf0-acb1f2c31527")
 	)
 	(segment
 		(start 130.395686 83.11)

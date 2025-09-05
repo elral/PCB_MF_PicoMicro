@@ -7597,7 +7597,7 @@
 				)
 			)
 		)
-		(property "Value" "RP2040"
+		(property "Value" "RP2350A"
 			(at 228.6 154.94 0)
 			(effects
 				(font
