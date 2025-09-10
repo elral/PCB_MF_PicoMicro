@@ -12588,8 +12588,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "D2"
-		(at 123.8 86.574762 270)
+	(gr_text "SDA/D2"
+		(at 123.86 90.44 270)
 		(layer "B.SilkS")
 		(uuid "82a3d204-066f-4b40-b632-d9bce7d88f31")
 		(effects
@@ -12648,8 +12648,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "D3"
-		(at 121.3 86.574762 270)
+	(gr_text "SCL/D3"
+		(at 121.28 90.34 270)
 		(layer "B.SilkS")
 		(uuid "ceec03bf-6353-4a32-ab66-48db63f4c03d")
 		(effects
